@@ -1,0 +1,19 @@
+
+.footer{
+    background-color: #5B7553;
+    color: #0B3954;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+}
+.menu{
+    background-color: #0B3954;
+    color: #ffffff; 
+}
+
+.container-header{
+    background-color: #0B3954;
+    color: #087E8B;
+    padding: 10px; 
+}
