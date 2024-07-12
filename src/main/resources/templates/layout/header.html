@@ -1,10 +1,29 @@
-<div th:fragment="headerFragment">
-	<header>	 	
-	 	<nav class="navbar navbar-expand-sm bg-light">
-	 		<div class="container">
-	 			<span class="navbar-brand mb-0 h1">Oceans Cleanup</span>
-		 		<a class="navbar-brand" href="#"><i class="fas fa-home"></i></a>		 				 		
-	 		</div>	 		
-	 	</nav>	 	
-	</header>
+<div th:fragment="headerFragment">    
+    <header class="container-fluid header1">
+        <!-- menu principal -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <h1 class="header-title" href="/#">
+                    FIAP</h1>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-text-right"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+                            <a href="/#" class="navbar-brand nav-link" ari-current"page">Home</a>
+                        </li>
+						 <li class="nav-item ">
+							<a href="/peixes" class="navbar-brand nav-link">Peixes</a>
+						</li>
+                        
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
 </div>
